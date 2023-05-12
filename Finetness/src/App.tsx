@@ -3,7 +3,8 @@ import Home from "@/components/Home/Home"
 
 import {useState, useEffect} from "react"
 import { SelectedPage } from "@/shared/types"
-import Benefits from "@/components/Benefits/Benefits"
+import BenefitsIndex from "@/components/Benefits/BenefitsIndex"
+
 
 
 
@@ -33,7 +34,7 @@ function App() {
           setSelectedPage={setSelectedPage}
         />
         <Home setSelectedPage={setSelectedPage}/>
-        <Benefits/>
+        <BenefitsIndex/>
         
       </div>
   )
