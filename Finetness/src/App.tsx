@@ -4,6 +4,7 @@ import {useState, useEffect} from "react"
 import { SelectedPage } from "@/shared/types"
 import BenefitsIndex from "@/components/Benefits/BenefitsIndex"
 import OurClasses from "./components/OurClasses/OurClasses"
+import ContactUs from "./components/ContactUs/ContactUs"
 
 
 
@@ -35,7 +36,8 @@ function App() {
         />
         <Home setSelectedPage={setSelectedPage}/>
         <BenefitsIndex setSelectedPage={setSelectedPage}/>
-        <OurClasses />
+        <OurClasses setSelectedPage={setSelectedPage}/>
+        <ContactUs/>
         
       </div>
   )
