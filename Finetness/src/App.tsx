@@ -6,6 +6,7 @@ import BenefitsIndex from "@/components/Benefits/BenefitsIndex"
 import OurClasses from "./components/OurClasses/OurClasses"
 import ContactUs from "./components/ContactUs/ContactUs"
 import Footer from "./components/Footer/Footer"
+import Calculator from "./components/Calculator/Calculator"
 
 
 
@@ -38,6 +39,7 @@ function App() {
         <Home setSelectedPage={setSelectedPage}/>
         <BenefitsIndex setSelectedPage={setSelectedPage}/>
         <OurClasses setSelectedPage={setSelectedPage}/>
+        <Calculator setSelectedPage={setSelectedPage}/>
         <ContactUs setSelectedPage={setSelectedPage}/>
         <Footer/>
         
