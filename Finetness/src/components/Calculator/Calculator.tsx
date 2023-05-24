@@ -94,7 +94,7 @@ const Calculator = ({setSelectedPage}: Props) => {
 
                                     
                                     <CheckboxGroup checkboxes={checkboxesSex} /> 
-                                    <ActivityLevelCheckbox checkboxes={checkboxesActivity}/>   
+                                    <CheckboxGroup checkboxes={checkboxesActivity}/>   
                                     {/* <CheckboxGroup checkboxes={checkboxes}>
                                     
                                     {checkboxes.map((checkbox) => (
